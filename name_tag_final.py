@@ -30,7 +30,7 @@ def generate_blank_pdf():
 	#Save the result
 	output = PdfFileWriter()
 	output.addPage(page)
-	output.write(file(final_folder + "blank.pdf","w"))
+	output.write(file(final_folder + "zero_blank.pdf","w"))
 
 
 def generate_pdf(set1,set2):
