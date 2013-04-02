@@ -37,7 +37,7 @@ def generate_pdf(set1,set2):
 	pWidth,pHeight = A4
 	
 	imgDoc = canvas.Canvas(temp_tag_pdf, pagesize=portrait(A4))
-	imgDoc.setFillColor(grey)
+	#imgDoc.setFillColor(grey)
 	imgDoc.rect(0,0,pWidth,pHeight, fill=1) 
 	imgPath = img1path
 	imgDoc.drawImage(imgPath,1.5*inch,6*inch,5.5*inch,4*inch)   
